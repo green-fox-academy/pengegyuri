@@ -1,0 +1,4 @@
+redirections
+setup the environment
+manipulations
+basic terminal operations
