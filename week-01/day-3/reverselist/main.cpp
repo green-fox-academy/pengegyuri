@@ -15,6 +15,6 @@ int main(int argc, char* args[]) {
         t[i] = aj[j];
         std::cout << t[i] << " ";
     }
-    
+
     return 0;
 }

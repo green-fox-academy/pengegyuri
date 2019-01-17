@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="reverselist" targetName="reverselist" />
+      <config projectName="doubling" targetName="doubling" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4569f153-10d1-447c-b251-681f56a9c9d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="6025e67b-6170-4e55-a16e-834009556c9f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../reverselist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../reverselist/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reverselist/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../reverselist/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -87,7 +88,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="reverselist" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="reverselist" TARGET_NAME="reverselist" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="reverselist" RUN_TARGET_NAME="reverselist">
+    <configuration name="doubling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="doubling" TARGET_NAME="doubling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="doubling" RUN_TARGET_NAME="doubling">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -98,17 +99,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4569f153-10d1-447c-b251-681f56a9c9d1" name="Default Changelist" comment="" />
-      <created>1547732417112</created>
+      <changelist id="6025e67b-6170-4e55-a16e-834009556c9f" name="Default Changelist" comment="" />
+      <created>1547735096733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547732417112</updated>
-      <workItem from="1547732418280" duration="2275000" />
+      <updated>1547735096733</updated>
+      <workItem from="1547735097913" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2275000" />
+    <option name="totallyTimeSpent" value="158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="315" y="27" width="1400" height="1000" extended-state="0" />
@@ -120,12 +121,12 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295063" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -145,8 +146,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
