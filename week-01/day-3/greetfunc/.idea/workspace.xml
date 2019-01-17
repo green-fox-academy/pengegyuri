@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="doubling" targetName="doubling" />
+      <config projectName="greetfunc" targetName="greetfunc" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6025e67b-6170-4e55-a16e-834009556c9f" name="Default Changelist" comment="" />
+    <list default="true" id="af9edf38-f02d-4cbd-8c9d-d8713da5fb69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../doubling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doubling/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +32,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#97#116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="doubling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="doubling" TARGET_NAME="doubling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="doubling" RUN_TARGET_NAME="doubling">
+    <configuration name="greetfunc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="greetfunc" TARGET_NAME="greetfunc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="greetfunc" RUN_TARGET_NAME="greetfunc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,17 +98,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6025e67b-6170-4e55-a16e-834009556c9f" name="Default Changelist" comment="" />
-      <created>1547735096733</created>
+      <changelist id="af9edf38-f02d-4cbd-8c9d-d8713da5fb69" name="Default Changelist" comment="" />
+      <created>1547735564010</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547735096733</updated>
-      <workItem from="1547735097913" duration="227000" />
+      <updated>1547735564010</updated>
+      <workItem from="1547735565185" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227000" />
+    <option name="totallyTimeSpent" value="65000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="315" y="27" width="1400" height="1000" extended-state="0" />
@@ -123,7 +125,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -143,10 +145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#97#116#0" expanded="true" />
           </folding>
         </state>
       </provider>
