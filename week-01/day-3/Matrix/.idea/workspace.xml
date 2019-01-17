@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Printelements" targetName="Printelements" />
+      <config projectName="Matrix" targetName="Matrix" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b5a775-1085-40bd-a579-680cd2aff846" name="Default Changelist" comment="" />
+    <list default="true" id="7a9c33ee-8ab3-46ea-bee1-6596e2c98e2a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Printelements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Printelements/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +32,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="315">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#98#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
-    <option name="y" value="146" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="315" />
+    <option name="y" value="27" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -63,8 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -85,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Printelements" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Printelements" TARGET_NAME="Printelements" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Printelements" RUN_TARGET_NAME="Printelements">
+    <configuration name="Matrix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Matrix" TARGET_NAME="Matrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Matrix" RUN_TARGET_NAME="Matrix">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,34 +98,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e4b5a775-1085-40bd-a579-680cd2aff846" name="Default Changelist" comment="" />
-      <created>1547721848885</created>
+      <changelist id="7a9c33ee-8ab3-46ea-bee1-6596e2c98e2a" name="Default Changelist" comment="" />
+      <created>1547722606447</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547721848885</updated>
-      <workItem from="1547721850077" duration="756000" />
+      <updated>1547722606447</updated>
+      <workItem from="1547722607662" duration="1530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756000" />
+    <option name="totallyTimeSpent" value="1530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="146" width="1400" height="1000" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18705036" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.3295063" />
+      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3099352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -143,10 +145,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#98#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
