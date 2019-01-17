@@ -19,5 +19,6 @@ int main(int argc, char* args[]) {
     colors[0] = green;
     colors[1] = red;
     colors[2] = pink;
+
     return 0;
 }
