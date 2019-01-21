@@ -2,10 +2,14 @@
 #include <string>
 #include <vector>
 
-std::vector<std::string> putSaturn(std::vector<std::string>& planets)
+std::vector<std::string> putSaturn(const std::vector<std::string>& planets)
 {
-    planets.insert(planets.end()-2, "Saturn");
-    return planets;
+    std::vector<std::string> c_planets;
+    for (int i = 0; i < planets.size(); i++) {
+        c_planets.push_back(planets[i]);
+    }
+    c_planets.insert(c_planets.end() - 2, "Saturn");
+    return c_planets;
 }
 
 int main(int argc, char* args[])
@@ -17,12 +21,9 @@ int main(int argc, char* args[])
     // Create a method called putSaturn() which has list parameter and returns the correct list.
 
     // Expected output: Mercury Venus Earth Mars Jupiter Saturn Uranus Neptune
-
-    std::vector<std::string> correctPlanets = putSaturn(planets);
-
-    for(int i = 0; i < correctPlanets.size(); ++i) {
-        std::cout << correctPlanets[i] << " ";
+    int s = putSaturn(planets).size();
+    for(int i = 0; i < s; ++i) {
+        std::cout << putSaturn(planets)[i] << " ";
     }
-
     return 0;
 }
