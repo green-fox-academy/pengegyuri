@@ -10,8 +10,8 @@ std::vector<std::string> makingMatches(const std::vector<std::string>& girls, co
        bigger = boys.size();
    } else bigger = girls.size();
    for (int i= 0; i < bigger; i++) {
-       if (i < boys.size() - 1) ma.push_back(boys[i]);
-       if (i < girls.size() - 1) ma.push_back(girls[i]);
+       if (i < boys.size()) ma.push_back(boys[i]);
+       if (i < girls.size()) ma.push_back(girls[i]);
    }
     return ma;
 }
