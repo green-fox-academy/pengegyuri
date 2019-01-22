@@ -9,7 +9,7 @@ int main()
     int len;
     std::cout << "How many numbers do you want to compare? ";
     std::cin >> len;
-    int max = 0;
+    int max = arr[0];
     int index = 0;
     int arr[len];
     for (int i = 0; i < len; i++) {
