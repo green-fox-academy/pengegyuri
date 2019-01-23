@@ -34,5 +34,7 @@ bool copyfilecontent(std::string file1, std::string file2) {
         iscopied = false;
         std::cout << e.what() << std::endl;
         }
+    myfile1.close();
+    myfile2.close();	
     return iscopied;
 }
