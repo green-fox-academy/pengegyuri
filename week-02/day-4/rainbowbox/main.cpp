@@ -86,7 +86,6 @@ int main( int argc, char* args[] )
         close();
         return -1;
     }
-
     //Main loop flag
     bool quit = false;
 
@@ -102,7 +101,6 @@ int main( int argc, char* args[] )
                 quit = true;
             }
         }
-
         //Clear screen
         SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
         SDL_RenderClear(gRenderer);
@@ -112,8 +110,6 @@ int main( int argc, char* args[] )
 
             draw(r, rainbow[c]);
         }
-
-
         //Update screen
         SDL_RenderPresent(gRenderer);
     }
