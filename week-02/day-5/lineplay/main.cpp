@@ -76,9 +76,6 @@ void close()
 
 int main( int argc, char* args[] )
 {
-    int a , b;
-    a = 0;
-    b = 0;
     //Start up SDL and create window
     if( !init() )
     {
