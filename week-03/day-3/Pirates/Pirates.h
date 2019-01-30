@@ -17,15 +17,21 @@ If you manage to get this far, then you can try to do the following.
 #define PIRATES_PIRATES_H
 
 
-class Pirates {
-    public:
-        Pirates ();
-        void drinkSomeRum();
-        void howsItGoingMate();
+class Pirates
+{
+public:
+    Pirates ();
+    void drinkSomeRum();
+    void howsItGoingMate();
+    void die();
+    bool getAlive();
+    bool getPassedout();
+    //int getHowMuchDrunken();
 
-    private:
-        int howMuchDrunken;
-        bool alive;
+private:
+    int howMuchDrunken;
+    bool alive;
+    bool passedOut;
 };
 
 

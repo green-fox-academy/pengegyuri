@@ -4,18 +4,38 @@
 #include <iostream>
 #include "Pirates.h"
 
-Pirates::Pirates () {
+Pirates::Pirates ()
+{
     howMuchDrunken = 0;
     alive = true;
+    passedOut = false;
 }
-void Pirates::drinkSomeRum() {
-    howMuchDrunken++
+void Pirates::drinkSomeRum()
+{
+    howMuchDrunken++;
 }
-void Pirates::howsItGoingMate() {
+void Pirates::howsItGoingMate()
+{
     if (howMuchDrunken < 5) {
            std::cout << "Pour me anudder!" << std::endl;
     } else {
         std::cout << "Arghh, I'ma Pirate. How d'ya d'ink its goin?" << std::endl;
-        howMuchDrunken = 0;
+        passedOut = true;
     }
 }
+void Pirates::die()
+{
+    alive = false;
+}
+bool Pirates::getAlive()
+{
+    return alive;
+}
+bool Pirates::getPassedout()
+{
+    return passedOut;
+}
+/*int Pirates::getHowMuchDrunken()
+{
+return howMuchDrunken;
+}*/

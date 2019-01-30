@@ -22,11 +22,19 @@
 #ifndef PIRATES_SHIP_H
 #define PIRATES_SHIP_H
 
+#include <iostream>
+#include <vector>
+#include "Pirates.h"
 
-class Ship {
-    public:
-        Ship ();
-        void fillShip();
+class Ship
+{
+public:
+    Ship ();
+    void fillShip();
+    Pirates crewMember(int crewIndex);
+
+private:
+    std::vector<Pirates> crew;
 };
 
 
