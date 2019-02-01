@@ -25,15 +25,15 @@ SDL_Renderer* gRenderer = nullptr;
 int tree(int x1, int y1, float angle, int length)
 {
     int x2, y2;
-    x2 = x1 + (int)(cos(M_PI * (angle / 180)) * length);
-    y2 = y1 + (int)(sin(M_PI * (angle / 180)) * length);
+    x2 = x1 - (int)(cos(M_PI * (angle / 180)) * length);
+    y2 = y1 - (int)(sin(M_PI * (angle / 180)) * length);
     draw(x1, y1, x2, y2);
     if (length <= 40)
     {
         return 0;
     } else {
-        tree(x2, y2, angle - 15, length - 20);
-        tree(x2, y2, angle + 15, length - 20);
+        tree(x2, y2, angle - 18, length - 20);
+        tree(x2, y2, angle + 18, length - 20);
         tree(x2, y2, angle, length - 20);
     }
 
@@ -41,7 +41,7 @@ int tree(int x1, int y1, float angle, int length)
 
 void draw(int a, int b, int c, int d)
 {
-SDL_SetRenderDrawColor(gRenderer, 0 /*R*/, 0 /*G*/, 0 /*B*/, 255 /*A*/);
+SDL_SetRenderDrawColor(gRenderer, 130 /*R*/, 150 /*G*/, 100 /*B*/, 255 /*A*/);
 SDL_RenderDrawLine(gRenderer, a, b, c, d);
 }
 
@@ -117,7 +117,7 @@ int main( int argc, char* args[] )
         SDL_SetRenderDrawColor(gRenderer, 0xFF, 0xFF, 0xFF, 0xFF);
         SDL_RenderClear(gRenderer);
 
-        tree(750, 0, 90, 200);
+        tree(750, 1500, 90, 200);
 
         //Update screen
         SDL_RenderPresent(gRenderer);
