@@ -21,5 +21,6 @@ void Cohort::addMentor(Mentor* mentor)
 }
 void Cohort::info()
 {
-
+    std::cout << "The " << _name << " cohort has " << students.size() << " students and "
+        << mentors.size() << " mentors." << std::endl;
 }
