@@ -16,7 +16,7 @@ class Printer
 public:
     Printer(int sizeX, int sizeY);
     virtual std::string getSize() = 0;
-    virtual std::string print();
+    virtual void print();
 
 protected:
     int _sizeX;

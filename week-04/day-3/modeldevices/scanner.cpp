@@ -12,6 +12,6 @@ Scanner::Scanner(int speed)
 
 void Scanner::scan()
 {
-    std::cout << "I'm scanning a document with " << _speed << " ppm.";
+    std::cout << "I'm scanning a document with " << _speed << " ppm." << std::endl;
 }
 
