@@ -6,8 +6,16 @@
 #define INSTRUMENTS_INSTRUMENT_H
 
 
-class instrument {
+#include <string>
 
+class Instrument
+{
+public:
+    Instrument(std::string name);
+    virtual void play () = 0;
+
+protected:
+    std::string _name;
 };
 
 

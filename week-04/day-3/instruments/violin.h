@@ -5,9 +5,15 @@
 #ifndef INSTRUMENTS_VIOLIN_H
 #define INSTRUMENTS_VIOLIN_H
 
+#include <string>
+#include "strininstrument.h"
 
-class violin {
+class Violin : public StringedInstrument
+{
 
+public:
+    Violin(std::string name, int numberOfStrings);
+    std::string sound() override;
 };
 
 
