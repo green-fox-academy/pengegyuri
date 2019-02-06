@@ -7,7 +7,7 @@ const int SCREEN_WIDTH = 1500;
 const int SCREEN_HEIGHT = 1500;
 
 //Draws geometry on the canvas
-void draw(int a, int b, int c, int d);
+void draw(int a, int b, int c, int d, int e);
 
 //Starts up SDL and creates window
 bool init();
@@ -25,24 +25,27 @@ SDL_Renderer* gRenderer = nullptr;
 int tree(int x1, int y1, float angle, int length)
 {
     int x2, y2;
+    int color = 280 - length;
     x2 = x1 - (int)(cos(M_PI * (angle / 180)) * length);
     y2 = y1 - (int)(sin(M_PI * (angle / 180)) * length);
-    draw(x1, y1, x2, y2);
+    draw(x1, y1, x2, y2, color);
     if (length <= 40)
     {
         return 0;
     } else {
-        tree(x2, y2, angle - 18, length - 20);
-        tree(x2, y2, angle + 18, length - 20);
+        tree(x2, y2, angle - 20, length - 20);
+        tree(x2, y2, angle + 20, length - 20);
         tree(x2, y2, angle, length - 20);
     }
 
 }
 
-void draw(int a, int b, int c, int d)
+void draw(int a, int b, int c, int d, int e)
 {
-SDL_SetRenderDrawColor(gRenderer, 130 /*R*/, 150 /*G*/, 100 /*B*/, 255 /*A*/);
-SDL_RenderDrawLine(gRenderer, a, b, c, d);
+    //SDL_Se
+
+    SDL_SetRenderDrawColor(gRenderer, 130 /*R*/, e /*G*/, 100 /*B*/, 255 /*A*/);
+    SDL_RenderDrawLine(gRenderer, a, b, c, d);
 }
 
 bool init()

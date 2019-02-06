@@ -33,6 +33,8 @@ public:
     std::vector<Pirates> fillShip();
     Pirates& crewMember(int crewIndex);
     Pirates& captain();
+    void stateOfcaptain();
+    int getNumberofalive();
 
 private:
     std::vector<Pirates> crew;
