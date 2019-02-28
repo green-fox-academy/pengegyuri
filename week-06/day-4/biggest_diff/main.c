@@ -37,10 +37,12 @@ int main()
 	createclasses(classes, num_classes);
 	printf("Average of exams: %.2f\n", average(classes, num_classes));
 	printf("Best exam was in class: %s\n", bestexam(classes, num_classes));
-	printf("%s", biggestdiff(classes, num_classes));
+	char* biggest = biggestdiff(classes, num_classes);
+	printf("%s", biggest);
 	for (int k = 0; k < num_classes; ++k) {
 		free(classes[k].exams);
 	}
+	free(biggest);
 	free(classes);
 
 	return 0;
