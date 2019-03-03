@@ -85,3 +85,15 @@ fabric.properties
 # End of https://www.gitignore.io/api/clion
 
 .idea/
+
+.settings/
+CMSIS/
+Debug/
+HAL_Driver/
+startup/
+Utilities/
+.cproject
+.project
+*.ld
+*.cfg
+STM32F746G-DISCO.xml
