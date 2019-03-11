@@ -112,3 +112,36 @@ int linked_list_delete_by_value(linked_list_node_t **linked_list, int value)
 	}
 	return number_of_deletes;
 }
+
+linked_list_node_t *linked_list_search_value(linked_list_node_t *linked_list, int value)
+{
+	linked_list_node_t *it = linked_list;
+	while(it) {
+		if (it->value == value) {
+			return it;
+		}
+		it = it->next;
+	}
+	return it;
+}
+
+linked_list_node_t *linked_list_bubblesort(linked_list_node_t *linked_list)
+{
+	linked_list_node_t *sorted_list;
+	for (int j = 0; j < linked_list_size(linked_list) - 1; ++j) {
+		linked_list_node_t *it = linked_list;
+		linked_list_node_t *temp = NULL;
+		for (int i = 1; i < linked_list_size(linked_list) - j -1; ++i) {
+			if (it->value > it->next->value) {
+				temp = it->next;
+				it->next = temp->next;
+				temp->next = it;
+				if (it == linked_list) {
+					linked_list = temp;
+				}
+			}
+			it = it->next;
+		}
+	}
+	return linked_list;
+}

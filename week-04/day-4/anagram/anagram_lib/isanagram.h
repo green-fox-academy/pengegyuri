@@ -6,7 +6,17 @@
 #define ANAGRAM_ISANAGRAM_H
 
 
-class isanagram {
+#include <string>
+
+class Isanagram
+{
+public:
+    Isanagram(std::string string1, std::string string2);
+    bool isAnagram(std::string string1, std::string string2);
+
+private:
+    std::string _string1;
+    std::string _string2;
 
 };
 

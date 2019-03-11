@@ -28,4 +28,9 @@ void linked_list_delete_first(linked_list_node_t **linked_list);
 
 int linked_list_delete_by_value(linked_list_node_t **linked_list, int value);
 
+linked_list_node_t *linked_list_search_value(linked_list_node_t *linked_list, int value);
+
+linked_list_node_t *linked_list_bubblesort(linked_list_node_t *linked_list);
+
+
 #endif //UNTITLED_LINKED_LIST_H
