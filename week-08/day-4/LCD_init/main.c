@@ -24,10 +24,9 @@ int main(void)
 
     BSP_LCD_Clear(LCD_COLOR_BLACK);
     BSP_LCD_SetFont(&LCD_DEFAULT_FONT);
-	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
-	BSP_LCD_DisplayStringAt(0, 0, "WHITE", LEFT_MODE);
-	HAL_Delay(5000);
-
+    BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+    BSP_LCD_DisplayStringAt(0, 0, "WHITE", LEFT_MODE);
+    
     while (1) {
 
 
