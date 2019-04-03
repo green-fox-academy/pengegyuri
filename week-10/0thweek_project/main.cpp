@@ -5,9 +5,9 @@
 #include <math.h>
 #include <string>
 
-using namespace std;
-using namespace cv;
-Mat image;
+
+cv::Mat image;
+
 int size_y;
 int size_x;
 
@@ -19,19 +19,19 @@ int calcAngle(int x, int y);
 int main(int argc, char** argv)
 {
 //create image
-	image = Mat::zeros(Size(1000, 1000), CV_8UC1);
+	image = cv::Mat::zeros(cv::Size(1000, 1000), CV_8UC1);
 	size_x = image.size().width;
 	size_y = image.size().height;
 	//create window
-	namedWindow("Display Image", WINDOW_AUTOSIZE);
+	cv::namedWindow("Display Image", cv::WINDOW_AUTOSIZE);
 //set the callback function for any mouse event
-	setMouseCallback("Display Image", CallBackFunc, NULL);
+	cv::setMouseCallback("Display Image", CallBackFunc, NULL);
 //draw ref line
-	line(image, Point(size_x / 2, size_y / 2), Point(size_x, size_y / 2), Scalar(255), 2, 8, 0);
+	cv::line(image, cv::Point(size_x / 2, size_y / 2), cv::Point(size_x, size_y / 2), cv::Scalar(255), 2, 8, 0);
 //show image
-	imshow("Display Image", image);
+	cv::imshow("Display Image", image);
 // Wait until user keypress
-	waitKey(0);
+	cv::waitKey(0);
 
 	return 0;
 }
@@ -39,22 +39,23 @@ int main(int argc, char** argv)
 void CallBackFunc(int event, int x, int y, int flags, void* userdata)
 {
 //mouse event
-	if  ( event == EVENT_LBUTTONDOWN )
+	if  ( event == cv::EVENT_LBUTTONDOWN )
 	{
 	//clear image
-		image = Mat::zeros(Size(1000, 1000), CV_8UC1);
+		image = cv::Mat::zeros(cv::Size(1000, 1000), CV_8UC1);
 	//redraw ref line
-		line(image, Point(size_x / 2, size_y / 2), Point(size_x, size_y / 2), Scalar(255), 2, 8, 0);
+		cv::line(image, cv::Point(size_x / 2, size_y / 2), cv::Point(size_x, size_y / 2), cv::Scalar(255), 2, 8, 0);
 	//draw custom line
-		line(image, Point(size_x / 2, size_y / 2), Point(x, y), Scalar(255), 2, 8, 0);
+		cv::line(image, cv::Point(size_x / 2, size_y / 2), cv::Point(x, y), cv::Scalar(255), 2, 8, 0);
 	//outputs in terminal
-		cout << "Left button of the mouse is clicked - position (" << x << ", " << y << ")" << endl;
-		string output = "Angle : " + to_string(calcAngle(x, y)) + " degries";
-		cout << output << endl;
+		std::cout << "Left button of the mouse is clicked - position (" << x << ", " << y << ")" << std::endl;
+		std::string output = "Angle : " + std::to_string(calcAngle(x, y)) + " degries";
+		std::cout << output << std::endl;
 	//output on image
-		putText(image, output, Point(10,40), FONT_HERSHEY_SCRIPT_SIMPLEX, 1,(255,255,255), 2, LINE_AA);
+		cv::putText(image, output, cv::Point(10,40), cv::FONT_HERSHEY_SCRIPT_SIMPLEX, 1,
+				(255,255,255), 2, cv::LINE_AA);
 	//show image
-		imshow("Display Image", image);
+		cv::imshow("Display Image", image);
 	}
 }
 
